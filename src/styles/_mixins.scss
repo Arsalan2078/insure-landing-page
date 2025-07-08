@@ -1,0 +1,63 @@
+@mixin text-preset-1 {
+  font-family: var(--font-family-dm-serif-display);
+  font-weight: var(--font-weight-regular);
+  font-size: var(--font-size-4xl);
+  line-height: var(--line-height-090);
+  letter-spacing: var(--letter-spacing-tightest);
+}
+
+@mixin text-preset-2 {
+  font-family: var(--font-family-dm-serif-display);
+  font-weight: var(--font-weight-regular);
+  font-size: var(--font-size-3xl);
+  line-height: var(--line-height-100);
+  letter-spacing: var(--letter-spacing-tighter);
+}
+
+@mixin text-preset-3 {
+  font-family: var(--font-family-dm-serif-display);
+  font-weight: var(--font-weight-regular);
+  font-size: var(--font-size-2xl);
+  line-height: var(--line-height-100);
+  letter-spacing: var(--letter-spacing-tight);
+}
+
+@mixin text-preset-4 {
+  font-family: var(--font-family-dm-serif-display);
+  font-weight: var(--font-weight-regular);
+  font-size: var(--font-size-xl);
+  line-height: var(--line-height-100);
+  letter-spacing: var(--letter-spacing-tight);
+}
+
+@mixin text-preset-5 {
+  font-family: var(--font-family-dm-serif-display);
+  font-weight: var(--font-weight-regular);
+  font-size: var(--font-size-lg);
+  line-height: var(--line-height-135);
+  letter-spacing: var(--letter-spacing-tight);
+}
+
+@mixin text-preset-6 {
+  font-family: var(--font-family-karla);
+  font-weight: var(--font-weight-bold);
+  font-size: var(--font-size-md);
+  line-height: var(--line-height-200);
+  letter-spacing: var(--letter-spacing-wide);
+}
+
+@mixin text-preset-7 {
+  font-family: var(--font-family-karla);
+  font-weight: var(--font-weight-regular);
+  font-size: var(--font-size-rg);
+  line-height: var(--line-height-165);
+  letter-spacing: var(--letter-spacing-normal);
+}
+
+@mixin text-preset-8 {
+  font-family: var(--font-family-karla);
+  font-weight: var(--font-weight-bold);
+  font-size: var(--font-size-sm);
+  line-height: var(--line-height-115);
+  letter-spacing: var(--letter-spacing-wide);
+}
