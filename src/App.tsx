@@ -1,4 +1,5 @@
 import classes from "./App.module.scss";
+import Icon from "./components/Icon";
 
 function App() {
   return (
