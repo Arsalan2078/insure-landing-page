@@ -1,0 +1,47 @@
+@use "../mixins";
+
+.button {
+  --_border-color: var(--border-color);
+  --_bg-color: var(--bg-color);
+  --_text-color: var(--text-color);
+
+  display: inline-block;
+
+  cursor: pointer;
+
+  border: 0.125rem solid var(--_border-color);
+  padding: 0.78125rem 1.78125rem;
+
+  background-color: var(--_bg-color);
+  color: var(--_text-color);
+
+  @include mixins.text-preset-8;
+  text-transform: uppercase;
+  text-align: center;
+
+  transition: background-color var(--transition), color var(--transition);
+}
+
+.button--primary {
+  --border-color: var(--color-white);
+  --bg-color: transparent;
+  --text-color: var(--color-white);
+
+  &:hover,
+  &:focus {
+    --bg-color: var(--color-white);
+    --text-color: var(--color-gray-950);
+  }
+}
+
+.button--secondary {
+  --border-color: var(--color-gray-950);
+  --bg-color: var(--color-white);
+  --text-color: var(--color-gray-950);
+
+  &:hover,
+  &:focus {
+    --bg-color: var(--color-gray-950);
+    --text-color: var(--color-white);
+  }
+}
